@@ -35,7 +35,7 @@ const PackagesIn = () => {
         return "secondary";
       case "Pending":
         return "warning";
-      case "Banned":
+      case "Off":
         return "danger";
       default:
         return "primary";
